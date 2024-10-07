@@ -1,0 +1,98 @@
+/* umumiy stillar */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1140;
+    margin: 0 auto;
+}
+
+/* header stillar */
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    gap: 40px;
+}
+
+header a {
+    color: grey;
+}
+
+header a:hover {
+    color: black;
+}
+
+/* Intro styles */
+.intro .container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.intro h1 {
+    font-size: 42px;
+}
+
+.intro p {
+    color: gray;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+.intro a {
+    border: 2px solid #458FF6;
+    color: #458FF6;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+.intro a:hover {
+    background-color: #458FF6;
+    color: white;
+}
+
+/* Articles styles */
+.articles .box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles .article {
+    width: 31%;
+}
+
+.articles img {
+    width: 100%;
+}
+
+.articles h2 {
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+.articles h3{
+    text-align: center;
+    font-size: 20px;
+    
+
+}
+
+.articles p{
+    color: rgb(117, 112, 112);
+}
+
